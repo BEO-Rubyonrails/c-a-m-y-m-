@@ -1,0 +1,117 @@
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0 ;
+}
+
+body, html {
+    font-size: 14px;
+    color: #2A2A2A;
+    font-family: 'Poppins', sans-serif; }
+
+.box-cv-wrapper {
+    display: flex;
+    min-height: 100%; }
+
+.box-sidebar {
+    width: 400px;
+    background-color: #144E52;
+    color: #fff;
+    padding: 3rem 2rem; }
+.box-sidebar .avatar {
+    margin-bottom: 2rem;
+
+}
+.box-sidebar .avatar img {
+    margin-bottom: 150px auto ;
+    width: 300px;
+    height: 300px;
+}
+.box-sidebar .userinfo {
+    margin-bottom: 2rem;
+}
+.box-sidebar .userinfo .username {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+}
+.box-sidebar .contact-info {
+    margin-bottom: 2rem; }
+.box-sidebar .contact-info .item {
+    display: block;
+    margin-bottom: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #e5e5e5;
+    color: #233A5F;
+    border-radius: 4px; }
+.box-sidebar .list {
+    margin-left: 20px; }
+.box-sidebar .list li {
+    margin-bottom: 1rem; }
+.box-sidebar .flex-box.honor {
+    margin-bottom: 1rem; }
+.box-content {
+    margin-left: 2rem;
+    flex: 1;
+    padding: 2rem; }
+.box-content .main-title {
+    position: relative;
+    color: #233A5F;
+    padding-bottom: 0.2rem; }
+.box-content .main-title:before {
+    width: 70px;
+    content: "";
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    background-color: #233A5F; }
+
+.main-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 600; }
+
+.main-desc {
+    color: #878787; }
+
+.box {
+    margin-bottom: 2rem; }
+
+.flex-box {
+    display: flex;
+    justify-content: space-between; }
+.flex-box .date {
+    white-space: nowrap; }
+.flex-box .content {
+    flex: 1;
+    margin-left: 2rem;
+    padding-left: 20px;
+    position: relative;
+}
+.flex-box .content:before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    background-color: #e5e5e5; }
+.flex-box .name {
+    margin: 0.5rem 0px;
+    font-weight: 600; }
+.flex-box .logo {
+    width: 4rem; }
+.flex-box .logo img {
+    width: 100%; }
+.flex-box .name-company {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem; }
+.flex-box .pos {
+    margin-bottom: 1rem; }
+.flex-box.-education .pos {
+    font-size: 1.2rem; }
+
+
